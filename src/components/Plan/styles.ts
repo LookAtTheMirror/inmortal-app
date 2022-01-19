@@ -34,8 +34,6 @@ export const styles = StyleSheet.create({
   suscribeButton: {
     width: '100%',
     height: 50,
-    backgroundColor: '#2C9BA6',
-    color: '#000',
     alignItems: 'center',
     justifyContent: 'center',
   },

@@ -46,7 +46,14 @@ const ServiceofCommerce = ({ route }: any) => {
         <TouchableOpacity onPress={() => navigation.goBack()}>
           <Text style={[styles.headerTitle, { color: colors.text }]}>◀</Text>
         </TouchableOpacity>
-        <Text style={styles.logo}>Logo del comercio</Text>
+        <Text
+          style={[
+            styles.logo,
+            { backgroundColor: colors.secundary, color: colors.secundaryText },
+          ]}
+        >
+          Logo del comercio
+        </Text>
         <View>
           <Text style={[styles.commerceName, { color: colors.text }]}>
             {title}
@@ -184,7 +191,7 @@ const ServiceofCommerce = ({ route }: any) => {
                 setToggleModal(!toggleModal)
               }}
             >
-              <Text style={{ color: '#fff', fontSize: 17 }}>
+              <Text style={{ color: colors.secundaryText, fontSize: 17 }}>
                 Proseguir con la obtencion
               </Text>
             </TouchableOpacity>

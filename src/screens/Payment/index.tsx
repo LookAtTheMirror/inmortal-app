@@ -76,7 +76,9 @@ const Payment = () => {
           style={[styles.payButton, { backgroundColor: colors.secundary }]}
           onPress={() => navigation.navigate('Social')}
         >
-          <Text style={{ color: '#fff', fontSize: 17 }}>Finalizar</Text>
+          <Text style={{ color: colors.secundaryText, fontSize: 17 }}>
+            Finalizar
+          </Text>
         </TouchableOpacity>
       </View>
     </ScrollView>

@@ -27,8 +27,15 @@ const Plan = (props: any) => {
           <Text style={[styles.description, { color: colors.primary }]}>
             {props.description}
           </Text>
-          <TouchableOpacity style={styles.suscribeButton}>
-            <Text>Suscribirse al {props.name}</Text>
+          <TouchableOpacity
+            style={[
+              styles.suscribeButton,
+              { backgroundColor: colors.secundary },
+            ]}
+          >
+            <Text style={{ color: colors.secundaryText }}>
+              Suscribirse al {props.name}
+            </Text>
           </TouchableOpacity>
         </View>
       )}

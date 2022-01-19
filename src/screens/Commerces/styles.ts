@@ -25,7 +25,6 @@ export const styles = StyleSheet.create({
     width: 71,
     height: 71,
     marginRight: '5%',
-    backgroundColor: '#2C9BA6',
     textAlign: 'center',
     color: 'white',
     fontSize: 13,

@@ -48,7 +48,17 @@ const Commerce = ({ route }: any) => {
               })
             }
           >
-            <Text style={styles.logo}>Logo del comercio</Text>
+            <Text
+              style={[
+                styles.logo,
+                {
+                  backgroundColor: colors.secundary,
+                  color: colors.secundaryText,
+                },
+              ]}
+            >
+              Logo del comercio
+            </Text>
             <View>
               <Text style={[styles.commerceName, { color: colors.text }]}>
                 {item.commerceName}
